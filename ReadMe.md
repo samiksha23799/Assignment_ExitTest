@@ -28,6 +28,13 @@ Different ways to run this project.
 4.Docker Run
 ```
 
+
+### GIT REPO
+
+```
+https://github.com/samiksha23799/Assignment_ExitTest
+```
+
 ### GETTING STARTED 
 
 ##### To run all the test cases
