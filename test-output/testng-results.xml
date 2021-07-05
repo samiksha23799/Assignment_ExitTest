@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="12" total="38" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="366725" started-at="2021-07-05T11:35:48Z" finished-at="2021-07-05T11:41:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="366725" started-at="2021-07-05T11:35:48Z" finished-at="2021-07-05T11:41:55Z">
+      <class name="com.redbus.tests.HomePageTest">
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="intializeWebDriver" is-config="true" duration-ms="1114" started-at="2021-07-05T17:08:21Z" finished-at="2021-07-05T17:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="openBrowser" is-config="true" duration-ms="2221" started-at="2021-07-05T17:08:23Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="invalid_todownloadappViaLink()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="invalid_todownloadappViaLink" duration-ms="954" started-at="2021-07-05T17:08:25Z" finished-at="2021-07-05T17:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_todownloadappViaLink -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T17:08:26Z" finished-at="2021-07-05T17:08:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_todownloadappViaLink status=SUCCESS method=HomePageTest.invalid_todownloadappViaLink()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="reportclose" is-config="true" duration-ms="0" started-at="2021-07-05T17:08:26Z" finished-at="2021-07-05T17:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="closeBrowser" is-config="true" duration-ms="617" started-at="2021-07-05T17:08:26Z" finished-at="2021-07-05T17:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="intializeWebDriver" is-config="true" duration-ms="1426" started-at="2021-07-05T17:08:26Z" finished-at="2021-07-05T17:08:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="openBrowser" is-config="true" duration-ms="3425" started-at="2021-07-05T17:08:28Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:08:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="invalid_todownloadappViaLink1()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="invalid_todownloadappViaLink1" duration-ms="676" started-at="2021-07-05T17:08:31Z" finished-at="2021-07-05T17:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_todownloadappViaLink1 -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T17:08:32Z" finished-at="2021-07-05T17:08:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_todownloadappViaLink1 status=SUCCESS method=HomePageTest.invalid_todownloadappViaLink1()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="reportclose" is-config="true" duration-ms="0" started-at="2021-07-05T17:08:32Z" finished-at="2021-07-05T17:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="closeBrowser" is-config="true" duration-ms="671" started-at="2021-07-05T17:08:32Z" finished-at="2021-07-05T17:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="intializeWebDriver" is-config="true" duration-ms="1109" started-at="2021-07-05T17:08:33Z" finished-at="2021-07-05T17:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="openBrowser" is-config="true" duration-ms="2428" started-at="2021-07-05T17:08:34Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="rbuscares_donateanonymously()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="rbuscares_donateanonymously" duration-ms="2448" started-at="2021-07-05T17:08:36Z" finished-at="2021-07-05T17:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rbuscares_donateanonymously -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T17:08:39Z" finished-at="2021-07-05T17:08:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=rbuscares_donateanonymously status=SUCCESS method=HomePageTest.rbuscares_donateanonymously()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="reportclose" is-config="true" duration-ms="0" started-at="2021-07-05T17:08:39Z" finished-at="2021-07-05T17:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="closeBrowser" is-config="true" duration-ms="612" started-at="2021-07-05T17:08:39Z" finished-at="2021-07-05T17:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="intializeWebDriver" is-config="true" duration-ms="1049" started-at="2021-07-05T17:08:39Z" finished-at="2021-07-05T17:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="openBrowser" is-config="true" duration-ms="2472" started-at="2021-07-05T17:08:40Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="rbuscares_navigatePaymentGateway()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="rbuscares_navigatePaymentGateway" duration-ms="9708" started-at="2021-07-05T17:08:43Z" finished-at="2021-07-05T17:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rbuscares_navigatePaymentGateway -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T17:08:52Z" finished-at="2021-07-05T17:08:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=rbuscares_navigatePaymentGateway status=SUCCESS method=HomePageTest.rbuscares_navigatePaymentGateway()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="closeBrowser" is-config="true" duration-ms="626" started-at="2021-07-05T17:08:52Z" finished-at="2021-07-05T17:08:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="reportclose" is-config="true" duration-ms="0" started-at="2021-07-05T17:08:52Z" finished-at="2021-07-05T17:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="intializeWebDriver" is-config="true" duration-ms="1054" started-at="2021-07-05T17:08:53Z" finished-at="2021-07-05T17:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="openBrowser" is-config="true" duration-ms="3397" started-at="2021-07-05T17:08:54Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="rbuscares_toDonateCustomAmount()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="rbuscares_toDonateCustomAmount" duration-ms="2090" started-at="2021-07-05T17:08:58Z" finished-at="2021-07-05T17:09:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rbuscares_toDonateCustomAmount -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:09:00Z" finished-at="2021-07-05T17:09:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=rbuscares_toDonateCustomAmount status=SUCCESS method=HomePageTest.rbuscares_toDonateCustomAmount()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="reportclose" is-config="true" duration-ms="2" started-at="2021-07-05T17:09:00Z" finished-at="2021-07-05T17:09:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.HomePageTest@2fb0623e]" name="closeBrowser" is-config="true" duration-ms="699" started-at="2021-07-05T17:09:00Z" finished-at="2021-07-05T17:09:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.redbus.tests.HomePageTest -->
+      <class name="com.redbus.tests.SearchTest">
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="intializeWebDriver" is-config="true" duration-ms="1140" started-at="2021-07-05T17:06:10Z" finished-at="2021-07-05T17:06:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="openBrowser" is-config="true" duration-ms="4163" started-at="2021-07-05T17:06:11Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:06:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="invalid_searchCheck()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="invalid_searchCheck" duration-ms="11664" started-at="2021-07-05T17:06:16Z" finished-at="2021-07-05T17:06:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_searchCheck -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:06:27Z" finished-at="2021-07-05T17:06:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_searchCheck status=SUCCESS method=SearchTest.invalid_searchCheck()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="closeBrowser" is-config="true" duration-ms="589" started-at="2021-07-05T17:06:27Z" finished-at="2021-07-05T17:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="reportclose" is-config="true" duration-ms="0" started-at="2021-07-05T17:06:27Z" finished-at="2021-07-05T17:06:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="intializeWebDriver" is-config="true" duration-ms="1074" started-at="2021-07-05T17:06:28Z" finished-at="2021-07-05T17:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="openBrowser" is-config="true" duration-ms="6121" started-at="2021-07-05T17:06:29Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="invalid_searchCheck2()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="invalid_searchCheck2" duration-ms="7078" started-at="2021-07-05T17:06:35Z" finished-at="2021-07-05T17:06:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_searchCheck2 -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="reportclose" is-config="true" duration-ms="1" started-at="2021-07-05T17:06:42Z" finished-at="2021-07-05T17:06:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:06:42Z" finished-at="2021-07-05T17:06:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_searchCheck2 status=SUCCESS method=SearchTest.invalid_searchCheck2()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="closeBrowser" is-config="true" duration-ms="667" started-at="2021-07-05T17:06:42Z" finished-at="2021-07-05T17:06:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="intializeWebDriver" is-config="true" duration-ms="1190" started-at="2021-07-05T17:06:43Z" finished-at="2021-07-05T17:06:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="openBrowser" is-config="true" duration-ms="3106" started-at="2021-07-05T17:06:44Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="modifySearch()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="modifySearch" duration-ms="8662" started-at="2021-07-05T17:06:47Z" finished-at="2021-07-05T17:06:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifySearch -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T17:06:56Z" finished-at="2021-07-05T17:06:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=modifySearch status=SUCCESS method=SearchTest.modifySearch()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="reportclose" is-config="true" duration-ms="1" started-at="2021-07-05T17:06:56Z" finished-at="2021-07-05T17:06:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="closeBrowser" is-config="true" duration-ms="711" started-at="2021-07-05T17:06:56Z" finished-at="2021-07-05T17:06:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="intializeWebDriver" is-config="true" duration-ms="1315" started-at="2021-07-05T17:06:56Z" finished-at="2021-07-05T17:06:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="openBrowser" is-config="true" duration-ms="5070" started-at="2021-07-05T17:06:58Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:07:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="valid_search()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="valid_search" duration-ms="12013" started-at="2021-07-05T17:07:03Z" finished-at="2021-07-05T17:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_search -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:07:15Z" finished-at="2021-07-05T17:07:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=valid_search status=SUCCESS method=SearchTest.valid_search()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="reportclose" is-config="true" duration-ms="1" started-at="2021-07-05T17:07:15Z" finished-at="2021-07-05T17:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="closeBrowser" is-config="true" duration-ms="632" started-at="2021-07-05T17:07:15Z" finished-at="2021-07-05T17:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="intializeWebDriver" is-config="true" duration-ms="1115" started-at="2021-07-05T17:07:16Z" finished-at="2021-07-05T17:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="openBrowser" is-config="true" duration-ms="4276" started-at="2021-07-05T17:07:17Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:07:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="valid_tofilterSearches()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="valid_tofilterSearches" duration-ms="9192" started-at="2021-07-05T17:07:21Z" finished-at="2021-07-05T17:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_tofilterSearches -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:07:30Z" finished-at="2021-07-05T17:07:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=valid_tofilterSearches status=SUCCESS method=SearchTest.valid_tofilterSearches()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="closeBrowser" is-config="true" duration-ms="680" started-at="2021-07-05T17:07:30Z" finished-at="2021-07-05T17:07:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="reportclose" is-config="true" duration-ms="0" started-at="2021-07-05T17:07:30Z" finished-at="2021-07-05T17:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="intializeWebDriver" is-config="true" duration-ms="1118" started-at="2021-07-05T17:07:31Z" finished-at="2021-07-05T17:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="openBrowser" is-config="true" duration-ms="3432" started-at="2021-07-05T17:07:32Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:07:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="valid_toselectSeat()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="valid_toselectSeat" duration-ms="11518" started-at="2021-07-05T17:07:35Z" finished-at="2021-07-05T17:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_toselectSeat -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="reportclose" is-config="true" duration-ms="1" started-at="2021-07-05T17:07:47Z" finished-at="2021-07-05T17:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:07:47Z" finished-at="2021-07-05T17:07:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=valid_toselectSeat status=SUCCESS method=SearchTest.valid_toselectSeat()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.SearchTest@2f67a4d3]" name="closeBrowser" is-config="true" duration-ms="759" started-at="2021-07-05T17:07:47Z" finished-at="2021-07-05T17:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.redbus.tests.SearchTest -->
+      <class name="com.redbus.tests.BusTicketTest">
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.BusTicketTest@5e3f861]" name="intializeWebDriver" is-config="true" duration-ms="1337" started-at="2021-07-05T17:07:48Z" finished-at="2021-07-05T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.BusTicketTest@5e3f861]" name="openBrowser" is-config="true" duration-ms="16610" started-at="2021-07-05T17:07:49Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="cancelTicket()[pri:0, instance:com.redbus.tests.BusTicketTest@5e3f861]" name="cancelTicket" duration-ms="4421" started-at="2021-07-05T17:08:06Z" finished-at="2021-07-05T17:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelTicket -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.BusTicketTest@5e3f861]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T17:08:10Z" finished-at="2021-07-05T17:08:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cancelTicket status=SUCCESS method=BusTicketTest.cancelTicket()[pri:0, instance:com.redbus.tests.BusTicketTest@5e3f861] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.BusTicketTest@5e3f861]" name="reportclose" is-config="true" duration-ms="1" started-at="2021-07-05T17:08:10Z" finished-at="2021-07-05T17:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.BusTicketTest@5e3f861]" name="closeBrowser" is-config="true" duration-ms="875" started-at="2021-07-05T17:08:10Z" finished-at="2021-07-05T17:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.BusTicketTest@5e3f861]" name="intializeWebDriver" is-config="true" duration-ms="1155" started-at="2021-07-05T17:08:11Z" finished-at="2021-07-05T17:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.BusTicketTest@5e3f861]" name="openBrowser" is-config="true" duration-ms="4610" started-at="2021-07-05T17:08:12Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="printSmsTicket()[pri:0, instance:com.redbus.tests.BusTicketTest@5e3f861]" name="printSmsTicket" duration-ms="4243" started-at="2021-07-05T17:08:17Z" finished-at="2021-07-05T17:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printSmsTicket -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.BusTicketTest@5e3f861]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:08:21Z" finished-at="2021-07-05T17:08:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=printSmsTicket status=SUCCESS method=BusTicketTest.printSmsTicket()[pri:0, instance:com.redbus.tests.BusTicketTest@5e3f861] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.BusTicketTest@5e3f861]" name="reportclose" is-config="true" duration-ms="1" started-at="2021-07-05T17:08:21Z" finished-at="2021-07-05T17:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.BusTicketTest@5e3f861]" name="closeBrowser" is-config="true" duration-ms="635" started-at="2021-07-05T17:08:21Z" finished-at="2021-07-05T17:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.redbus.tests.BusTicketTest -->
+      <class name="com.redbus.tests.LoginTest">
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="intializeWebDriver" is-config="true" duration-ms="1172" started-at="2021-07-05T17:09:00Z" finished-at="2021-07-05T17:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="openBrowser" is-config="true" duration-ms="3665" started-at="2021-07-05T17:09:01Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="invalid_login_PhoneNumber()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="invalid_login_PhoneNumber" duration-ms="2813" started-at="2021-07-05T17:09:05Z" finished-at="2021-07-05T17:09:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_login_PhoneNumber -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:09:08Z" finished-at="2021-07-05T17:09:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_login_PhoneNumber status=SUCCESS method=LoginTest.invalid_login_PhoneNumber()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="reportclose" is-config="true" duration-ms="1" started-at="2021-07-05T17:09:08Z" finished-at="2021-07-05T17:09:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="closeBrowser" is-config="true" duration-ms="653" started-at="2021-07-05T17:09:08Z" finished-at="2021-07-05T17:09:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="intializeWebDriver" is-config="true" duration-ms="1046" started-at="2021-07-05T17:09:09Z" finished-at="2021-07-05T17:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="openBrowser" is-config="true" duration-ms="3627" started-at="2021-07-05T17:09:10Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="valid_loginCheck()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="valid_loginCheck" duration-ms="32375" started-at="2021-07-05T17:09:13Z" finished-at="2021-07-05T17:09:46Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (8a63147d090ffa3bfe8b29c0e291ace2)] -> id: g_id_onload] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SAMIKSHAGUPTA', ip: '172.17.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\SAMIKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55033}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a63147d090ffa3bfe8b29c0e291ace2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (8a63147d090ffa3bfe8b29c0e291ace2)] -> id: g_id_onload] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SAMIKSHAGUPTA', ip: '172.17.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\SAMIKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55033}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a63147d090ffa3bfe8b29c0e291ace2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.redbus.pages.LoginPage.clickOn(LoginPage.java:102)
+	at com.redbus.tests.LoginTest.valid_loginCheck(LoginTest.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_loginCheck -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="attachScreenshot" is-config="true" duration-ms="277" started-at="2021-07-05T17:09:46Z" finished-at="2021-07-05T17:09:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=valid_loginCheck status=FAILURE method=LoginTest.valid_loginCheck()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="closeBrowser" is-config="true" duration-ms="616" started-at="2021-07-05T17:09:46Z" finished-at="2021-07-05T17:09:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="reportclose" is-config="true" duration-ms="0" started-at="2021-07-05T17:09:46Z" finished-at="2021-07-05T17:09:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="intializeWebDriver" is-config="true" duration-ms="1042" started-at="2021-07-05T17:09:47Z" finished-at="2021-07-05T17:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="openBrowser" is-config="true" duration-ms="2440" started-at="2021-07-05T17:09:48Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="valid_login_wrongEmail()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="valid_login_wrongEmail" duration-ms="32932" started-at="2021-07-05T17:09:50Z" finished-at="2021-07-05T17:10:23Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (3dc62faf49e31702a8d22c3208dc893b)] -> id: g_id_onload] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SAMIKSHAGUPTA', ip: '172.17.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\SAMIKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3dc62faf49e31702a8d22c3208dc893b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (3dc62faf49e31702a8d22c3208dc893b)] -> id: g_id_onload] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SAMIKSHAGUPTA', ip: '172.17.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\SAMIKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3dc62faf49e31702a8d22c3208dc893b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.redbus.pages.LoginPage.clickOn(LoginPage.java:102)
+	at com.redbus.tests.LoginTest.valid_login_wrongEmail(LoginTest.java:182)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_login_wrongEmail -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="attachScreenshot" is-config="true" duration-ms="262" started-at="2021-07-05T17:10:23Z" finished-at="2021-07-05T17:10:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=valid_login_wrongEmail status=FAILURE method=LoginTest.valid_login_wrongEmail()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="reportclose" is-config="true" duration-ms="0" started-at="2021-07-05T17:10:23Z" finished-at="2021-07-05T17:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="closeBrowser" is-config="true" duration-ms="626" started-at="2021-07-05T17:10:23Z" finished-at="2021-07-05T17:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="intializeWebDriver" is-config="true" duration-ms="1067" started-at="2021-07-05T17:10:24Z" finished-at="2021-07-05T17:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="openBrowser" is-config="true" duration-ms="2817" started-at="2021-07-05T17:10:25Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="valid_login_wrongPassword()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="valid_login_wrongPassword" duration-ms="31801" started-at="2021-07-05T17:10:28Z" finished-at="2021-07-05T17:11:00Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (13aa9466d1339cd94d7bc9e0577dcf3f)] -> id: g_id_onload] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SAMIKSHAGUPTA', ip: '172.17.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\SAMIKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63857}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13aa9466d1339cd94d7bc9e0577dcf3f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (13aa9466d1339cd94d7bc9e0577dcf3f)] -> id: g_id_onload] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SAMIKSHAGUPTA', ip: '172.17.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\SAMIKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63857}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13aa9466d1339cd94d7bc9e0577dcf3f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.redbus.pages.LoginPage.clickOn(LoginPage.java:102)
+	at com.redbus.tests.LoginTest.valid_login_wrongPassword(LoginTest.java:251)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_login_wrongPassword -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="attachScreenshot" is-config="true" duration-ms="346" started-at="2021-07-05T17:11:00Z" finished-at="2021-07-05T17:11:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=valid_login_wrongPassword status=FAILURE method=LoginTest.valid_login_wrongPassword()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="reportclose" is-config="true" duration-ms="0" started-at="2021-07-05T17:11:00Z" finished-at="2021-07-05T17:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.LoginTest@49b2a47d]" name="closeBrowser" is-config="true" duration-ms="644" started-at="2021-07-05T17:11:00Z" finished-at="2021-07-05T17:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.redbus.tests.LoginTest -->
+      <class name="com.redbus.tests.TicketDetailsTest">
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="intializeWebDriver" is-config="true" duration-ms="1116" started-at="2021-07-05T17:11:01Z" finished-at="2021-07-05T17:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="openBrowser" is-config="true" duration-ms="3741" started-at="2021-07-05T17:11:02Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="invalid_togetETicket()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="invalid_togetETicket" duration-ms="2067" started-at="2021-07-05T17:11:05Z" finished-at="2021-07-05T17:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_togetETicket -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="reportclose" is-config="true" duration-ms="1" started-at="2021-07-05T17:11:07Z" finished-at="2021-07-05T17:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:11:07Z" finished-at="2021-07-05T17:11:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_togetETicket status=SUCCESS method=TicketDetailsTest.invalid_togetETicket()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="closeBrowser" is-config="true" duration-ms="612" started-at="2021-07-05T17:11:07Z" finished-at="2021-07-05T17:11:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="intializeWebDriver" is-config="true" duration-ms="1115" started-at="2021-07-05T17:11:08Z" finished-at="2021-07-05T17:11:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="openBrowser" is-config="true" duration-ms="2830" started-at="2021-07-05T17:11:09Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:11:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="invalid_togetETicket1()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="invalid_togetETicket1" duration-ms="2156" started-at="2021-07-05T17:11:12Z" finished-at="2021-07-05T17:11:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_togetETicket1 -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="reportclose" is-config="true" duration-ms="1" started-at="2021-07-05T17:11:14Z" finished-at="2021-07-05T17:11:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:11:14Z" finished-at="2021-07-05T17:11:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_togetETicket1 status=SUCCESS method=TicketDetailsTest.invalid_togetETicket1()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="closeBrowser" is-config="true" duration-ms="608" started-at="2021-07-05T17:11:14Z" finished-at="2021-07-05T17:11:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="intializeWebDriver" is-config="true" duration-ms="1020" started-at="2021-07-05T17:11:15Z" finished-at="2021-07-05T17:11:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="openBrowser" is-config="true" duration-ms="3900" started-at="2021-07-05T17:11:16Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:11:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="invalid_togetETicket2()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="invalid_togetETicket2" duration-ms="1490" started-at="2021-07-05T17:11:20Z" finished-at="2021-07-05T17:11:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_togetETicket2 -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T17:11:21Z" finished-at="2021-07-05T17:11:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_togetETicket2 status=SUCCESS method=TicketDetailsTest.invalid_togetETicket2()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="reportclose" is-config="true" duration-ms="0" started-at="2021-07-05T17:11:21Z" finished-at="2021-07-05T17:11:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="closeBrowser" is-config="true" duration-ms="601" started-at="2021-07-05T17:11:21Z" finished-at="2021-07-05T17:11:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="intializeWebDriver" is-config="true" duration-ms="1044" started-at="2021-07-05T17:11:22Z" finished-at="2021-07-05T17:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="openBrowser" is-config="true" duration-ms="2402" started-at="2021-07-05T17:11:23Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:11:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="valid_togetETicket()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="valid_togetETicket" duration-ms="2305" started-at="2021-07-05T17:11:25Z" finished-at="2021-07-05T17:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_togetETicket -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:11:28Z" finished-at="2021-07-05T17:11:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=valid_togetETicket status=SUCCESS method=TicketDetailsTest.valid_togetETicket()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="reportclose" is-config="true" duration-ms="1" started-at="2021-07-05T17:11:28Z" finished-at="2021-07-05T17:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.TicketDetailsTest@5be1d0a4]" name="closeBrowser" is-config="true" duration-ms="600" started-at="2021-07-05T17:11:28Z" finished-at="2021-07-05T17:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.redbus.tests.TicketDetailsTest -->
+      <class name="com.redbus.tests.BusHireTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.redbus.tests.BusHireTest@7dc3712]" name="setExtent" is-config="true" duration-ms="307" started-at="2021-07-05T17:05:48Z" finished-at="2021-07-05T17:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.BusHireTest@7dc3712]" name="intializeWebDriver" is-config="true" duration-ms="2817" started-at="2021-07-05T17:05:48Z" finished-at="2021-07-05T17:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.BusHireTest@7dc3712]" name="openBrowser" is-config="true" duration-ms="6764" started-at="2021-07-05T17:05:51Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:05:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="offers()[pri:0, instance:com.redbus.tests.BusHireTest@7dc3712]" name="offers" duration-ms="11864" started-at="2021-07-05T17:05:58Z" finished-at="2021-07-05T17:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- offers -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.BusHireTest@7dc3712]" name="attachScreenshot" is-config="true" duration-ms="3" started-at="2021-07-05T17:06:10Z" finished-at="2021-07-05T17:06:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=offers status=SUCCESS method=BusHireTest.offers()[pri:0, instance:com.redbus.tests.BusHireTest@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.BusHireTest@7dc3712]" name="reportclose" is-config="true" duration-ms="0" started-at="2021-07-05T17:06:10Z" finished-at="2021-07-05T17:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.BusHireTest@7dc3712]" name="closeBrowser" is-config="true" duration-ms="690" started-at="2021-07-05T17:06:10Z" finished-at="2021-07-05T17:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.redbus.tests.BusHireTest@7dc3712]" name="endReport" is-config="true" duration-ms="336" started-at="2021-07-05T17:11:55Z" finished-at="2021-07-05T17:11:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.redbus.tests.BusHireTest -->
+      <class name="com.redbus.tests.NavBarTest">
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="intializeWebDriver" is-config="true" duration-ms="1026" started-at="2021-07-05T17:11:28Z" finished-at="2021-07-05T17:11:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="openBrowser" is-config="true" duration-ms="3066" started-at="2021-07-05T17:11:29Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:11:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="busHire()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="busHire" duration-ms="2725" started-at="2021-07-05T17:11:32Z" finished-at="2021-07-05T17:11:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- busHire -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T17:11:35Z" finished-at="2021-07-05T17:11:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=busHire status=SUCCESS method=NavBarTest.busHire()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="reportclose" is-config="true" duration-ms="0" started-at="2021-07-05T17:11:35Z" finished-at="2021-07-05T17:11:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="closeBrowser" is-config="true" duration-ms="777" started-at="2021-07-05T17:11:35Z" finished-at="2021-07-05T17:11:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="intializeWebDriver" is-config="true" duration-ms="1055" started-at="2021-07-05T17:11:36Z" finished-at="2021-07-05T17:11:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="openBrowser" is-config="true" duration-ms="3402" started-at="2021-07-05T17:11:37Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="busTicket()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="busTicket" duration-ms="2449" started-at="2021-07-05T17:11:40Z" finished-at="2021-07-05T17:11:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- busTicket -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="reportclose" is-config="true" duration-ms="0" started-at="2021-07-05T17:11:43Z" finished-at="2021-07-05T17:11:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:11:43Z" finished-at="2021-07-05T17:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=busTicket status=SUCCESS method=NavBarTest.busTicket()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="closeBrowser" is-config="true" duration-ms="612" started-at="2021-07-05T17:11:43Z" finished-at="2021-07-05T17:11:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="intializeWebDriver" is-config="true" duration-ms="1068" started-at="2021-07-05T17:11:43Z" finished-at="2021-07-05T17:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="openBrowser" is-config="true" duration-ms="2848" started-at="2021-07-05T17:11:44Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="rPool()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="rPool" duration-ms="1122" started-at="2021-07-05T17:11:47Z" finished-at="2021-07-05T17:11:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rPool -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="closeBrowser" is-config="true" duration-ms="611" started-at="2021-07-05T17:11:48Z" finished-at="2021-07-05T17:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="reportclose" is-config="true" duration-ms="0" started-at="2021-07-05T17:11:48Z" finished-at="2021-07-05T17:11:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:11:48Z" finished-at="2021-07-05T17:11:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=rPool status=SUCCESS method=NavBarTest.rPool()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="intializeWebDriver" is-config="true" duration-ms="1052" started-at="2021-07-05T17:11:49Z" finished-at="2021-07-05T17:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="openBrowser" is-config="true" duration-ms="3540" started-at="2021-07-05T17:11:50Z" depends-on-methods="com.redbus.base.BaseClass.intializeWebDriver" finished-at="2021-07-05T17:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="redBusLogo()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="redBusLogo" duration-ms="729" started-at="2021-07-05T17:11:54Z" finished-at="2021-07-05T17:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redBusLogo -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:11:54Z" finished-at="2021-07-05T17:11:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=redBusLogo status=SUCCESS method=NavBarTest.redBusLogo()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="reportclose" is-config="true" duration-ms="1" started-at="2021-07-05T17:11:54Z" finished-at="2021-07-05T17:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.NavBarTest@415b0b49]" name="closeBrowser" is-config="true" duration-ms="601" started-at="2021-07-05T17:11:54Z" finished-at="2021-07-05T17:11:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.redbus.tests.NavBarTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

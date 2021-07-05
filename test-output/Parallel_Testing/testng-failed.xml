@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Parallel_Testing]" guice-stage="DEVELOPMENT">
+  <test parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="com.redbus.tests.HomePageTest">
+        <methods>
+          <include name="rbuscares_toDonateCustomAmount"/>
+          <include name="rbuscares_donateanonymously"/>
+          <include name="intializeWebDriver"/>
+          <include name="reportclose"/>
+          <include name="invalid_todownloadappViaLink"/>
+          <include name="closeBrowser"/>
+          <include name="rbuscares_navigatePaymentGateway"/>
+          <include name="endReport"/>
+          <include name="openBrowser"/>
+          <include name="invalid_todownloadappViaLink1"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.redbus.tests.HomePageTest -->
+      <class name="com.redbus.tests.TicketDetailsTest">
+        <methods>
+          <include name="invalid_togetETicket1"/>
+          <include name="intializeWebDriver"/>
+          <include name="reportclose"/>
+          <include name="closeBrowser"/>
+          <include name="invalid_togetETicket2"/>
+          <include name="endReport"/>
+          <include name="openBrowser"/>
+          <include name="valid_togetETicket"/>
+          <include name="attachScreenshot"/>
+          <include name="invalid_togetETicket"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.redbus.tests.TicketDetailsTest -->
+      <class name="com.redbus.tests.SearchTest">
+        <methods>
+          <include name="invalid_searchCheck2"/>
+          <include name="intializeWebDriver"/>
+          <include name="modifySearch"/>
+          <include name="closeBrowser"/>
+          <include name="valid_search"/>
+          <include name="attachScreenshot"/>
+          <include name="valid_tofilterSearches"/>
+          <include name="setExtent"/>
+          <include name="valid_toselectSeat"/>
+          <include name="reportclose"/>
+          <include name="endReport"/>
+          <include name="openBrowser"/>
+          <include name="invalid_searchCheck"/>
+        </methods>
+      </class> <!-- com.redbus.tests.SearchTest -->
+      <class name="com.redbus.tests.BusHireTest">
+        <methods>
+          <include name="intializeWebDriver"/>
+          <include name="reportclose"/>
+          <include name="closeBrowser"/>
+          <include name="endReport"/>
+          <include name="openBrowser"/>
+          <include name="offers"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.redbus.tests.BusHireTest -->
+      <class name="com.redbus.tests.BusTicketTest">
+        <methods>
+          <include name="intializeWebDriver"/>
+          <include name="reportclose"/>
+          <include name="printSmsTicket"/>
+          <include name="closeBrowser"/>
+          <include name="cancelTicket"/>
+          <include name="endReport"/>
+          <include name="openBrowser"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.redbus.tests.BusTicketTest -->
+      <class name="com.redbus.tests.LoginTest">
+        <methods>
+          <include name="intializeWebDriver"/>
+          <include name="reportclose"/>
+          <include name="valid_login_wrongEmail"/>
+          <include name="closeBrowser"/>
+          <include name="endReport"/>
+          <include name="valid_login_wrongPassword"/>
+          <include name="openBrowser"/>
+          <include name="invalid_login_PhoneNumber"/>
+          <include name="attachScreenshot"/>
+          <include name="valid_loginCheck"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.redbus.tests.LoginTest -->
+      <class name="com.redbus.tests.NavBarTest">
+        <methods>
+          <include name="intializeWebDriver"/>
+          <include name="reportclose"/>
+          <include name="rPool"/>
+          <include name="busTicket"/>
+          <include name="closeBrowser"/>
+          <include name="redBusLogo"/>
+          <include name="endReport"/>
+          <include name="busHire"/>
+          <include name="openBrowser"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.redbus.tests.NavBarTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Parallel_Testing] -->

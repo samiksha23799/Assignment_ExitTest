@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\samikshagupta\eclipse-workspace\3164889_ExitTest_Assignment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.NavBarTest" hash-for-method="busHire">busHire</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.NavBarTest" hash-for-method="busTicket">busTicket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.BusTicketTest" hash-for-method="cancelTicket">cancelTicket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.LoginTest" hash-for-method="invalid_login_PhoneNumber">invalid_login_PhoneNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.SearchTest" hash-for-method="invalid_searchCheck">invalid_searchCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.SearchTest" hash-for-method="invalid_searchCheck2">invalid_searchCheck2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.HomePageTest" hash-for-method="invalid_todownloadappViaLink">invalid_todownloadappViaLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.HomePageTest" hash-for-method="invalid_todownloadappViaLink1">invalid_todownloadappViaLink1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.TicketDetailsTest" hash-for-method="invalid_togetETicket">invalid_togetETicket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.TicketDetailsTest" hash-for-method="invalid_togetETicket1">invalid_togetETicket1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.TicketDetailsTest" hash-for-method="invalid_togetETicket2">invalid_togetETicket2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.SearchTest" hash-for-method="modifySearch">modifySearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.BusHireTest" hash-for-method="offers">offers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.BusTicketTest" hash-for-method="printSmsTicket">printSmsTicket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.NavBarTest" hash-for-method="rPool">rPool</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.HomePageTest" hash-for-method="rbuscares_donateanonymously">rbuscares_donateanonymously</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.HomePageTest" hash-for-method="rbuscares_navigatePaymentGateway">rbuscares_navigatePaymentGateway</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.HomePageTest" hash-for-method="rbuscares_toDonateCustomAmount">rbuscares_toDonateCustomAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.NavBarTest" hash-for-method="redBusLogo">redBusLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.SearchTest" hash-for-method="valid_search">valid_search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.SearchTest" hash-for-method="valid_tofilterSearches">valid_tofilterSearches</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.TicketDetailsTest" hash-for-method="valid_togetETicket">valid_togetETicket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbus.tests.SearchTest" hash-for-method="valid_toselectSeat">valid_toselectSeat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.redbus.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalid_login_PhoneNumber">
+                  </a> <!-- invalid_login_PhoneNumber -->
+                  <span class="method-name">invalid_login_PhoneNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.redbus.tests.BusHireTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="offers">
+                  </a> <!-- offers -->
+                  <span class="method-name">offers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.redbus.tests.NavBarTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="busHire">
+                  </a> <!-- busHire -->
+                  <span class="method-name">busHire</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="busTicket">
+                  </a> <!-- busTicket -->
+                  <span class="method-name">busTicket</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rPool">
+                  </a> <!-- rPool -->
+                  <span class="method-name">rPool</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redBusLogo">
+                  </a> <!-- redBusLogo -->
+                  <span class="method-name">redBusLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.redbus.tests.BusTicketTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelTicket">
+                  </a> <!-- cancelTicket -->
+                  <span class="method-name">cancelTicket</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printSmsTicket">
+                  </a> <!-- printSmsTicket -->
+                  <span class="method-name">printSmsTicket</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.redbus.tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalid_todownloadappViaLink">
+                  </a> <!-- invalid_todownloadappViaLink -->
+                  <span class="method-name">invalid_todownloadappViaLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalid_todownloadappViaLink1">
+                  </a> <!-- invalid_todownloadappViaLink1 -->
+                  <span class="method-name">invalid_todownloadappViaLink1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rbuscares_donateanonymously">
+                  </a> <!-- rbuscares_donateanonymously -->
+                  <span class="method-name">rbuscares_donateanonymously</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rbuscares_navigatePaymentGateway">
+                  </a> <!-- rbuscares_navigatePaymentGateway -->
+                  <span class="method-name">rbuscares_navigatePaymentGateway</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rbuscares_toDonateCustomAmount">
+                  </a> <!-- rbuscares_toDonateCustomAmount -->
+                  <span class="method-name">rbuscares_toDonateCustomAmount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.redbus.tests.TicketDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalid_togetETicket">
+                  </a> <!-- invalid_togetETicket -->
+                  <span class="method-name">invalid_togetETicket</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalid_togetETicket1">
+                  </a> <!-- invalid_togetETicket1 -->
+                  <span class="method-name">invalid_togetETicket1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalid_togetETicket2">
+                  </a> <!-- invalid_togetETicket2 -->
+                  <span class="method-name">invalid_togetETicket2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="valid_togetETicket">
+                  </a> <!-- valid_togetETicket -->
+                  <span class="method-name">valid_togetETicket</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.redbus.tests.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalid_searchCheck">
+                  </a> <!-- invalid_searchCheck -->
+                  <span class="method-name">invalid_searchCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalid_searchCheck2">
+                  </a> <!-- invalid_searchCheck2 -->
+                  <span class="method-name">invalid_searchCheck2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="modifySearch">
+                  </a> <!-- modifySearch -->
+                  <span class="method-name">modifySearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="valid_search">
+                  </a> <!-- valid_search -->
+                  <span class="method-name">valid_search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="valid_tofilterSearches">
+                  </a> <!-- valid_tofilterSearches -->
+                  <span class="method-name">valid_tofilterSearches</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="valid_toselectSeat">
+                  </a> <!-- valid_toselectSeat -->
+                  <span class="method-name">valid_toselectSeat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\samikshagupta\eclipse-workspace\3164889_ExitTest_Assignment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.redbus.tests.BusHireTest&quot;/&gt;
+      &lt;class name=&quot;com.redbus.tests.SearchTest&quot;/&gt;
+      &lt;class name=&quot;com.redbus.tests.BusTicketTest&quot;/&gt;
+      &lt;class name=&quot;com.redbus.tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.redbus.tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.redbus.tests.TicketDetailsTest&quot;/&gt;
+      &lt;class name=&quot;com.redbus.tests.NavBarTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'valid_search')
+data.setCell(0, 2, 'com.redbus.tests.SearchTest')
+data.setCell(0, 3, 14290);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'valid_toselectSeat')
+data.setCell(1, 2, 'com.redbus.tests.SearchTest')
+data.setCell(1, 3, 12952);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'invalid_searchCheck')
+data.setCell(2, 2, 'com.redbus.tests.SearchTest')
+data.setCell(2, 3, 12807);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'offers')
+data.setCell(3, 2, 'com.redbus.tests.BusHireTest')
+data.setCell(3, 3, 12057);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'valid_tofilterSearches')
+data.setCell(4, 2, 'com.redbus.tests.SearchTest')
+data.setCell(4, 3, 11380);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'rbuscares_navigatePaymentGateway')
+data.setCell(5, 2, 'com.redbus.tests.HomePageTest')
+data.setCell(5, 3, 11308);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'modifySearch')
+data.setCell(6, 2, 'com.redbus.tests.SearchTest')
+data.setCell(6, 3, 10825);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'invalid_searchCheck2')
+data.setCell(7, 2, 'com.redbus.tests.SearchTest')
+data.setCell(7, 3, 7975);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'busTicket')
+data.setCell(8, 2, 'com.redbus.tests.NavBarTest')
+data.setCell(8, 3, 6907);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'printSmsTicket')
+data.setCell(9, 2, 'com.redbus.tests.BusTicketTest')
+data.setCell(9, 3, 4810);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'cancelTicket')
+data.setCell(10, 2, 'com.redbus.tests.BusTicketTest')
+data.setCell(10, 3, 4724);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'invalid_togetETicket')
+data.setCell(11, 2, 'com.redbus.tests.TicketDetailsTest')
+data.setCell(11, 3, 4190);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'invalid_togetETicket1')
+data.setCell(12, 2, 'com.redbus.tests.TicketDetailsTest')
+data.setCell(12, 3, 4104);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'valid_togetETicket')
+data.setCell(13, 2, 'com.redbus.tests.TicketDetailsTest')
+data.setCell(13, 3, 3681);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'rbuscares_donateanonymously')
+data.setCell(14, 2, 'com.redbus.tests.HomePageTest')
+data.setCell(14, 3, 3501);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'invalid_togetETicket2')
+data.setCell(15, 2, 'com.redbus.tests.TicketDetailsTest')
+data.setCell(15, 3, 3447);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'rbuscares_toDonateCustomAmount')
+data.setCell(16, 2, 'com.redbus.tests.HomePageTest')
+data.setCell(16, 3, 3280);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'busHire')
+data.setCell(17, 2, 'com.redbus.tests.NavBarTest')
+data.setCell(17, 3, 3272);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'invalid_login_PhoneNumber')
+data.setCell(18, 2, 'com.redbus.tests.LoginTest')
+data.setCell(18, 3, 2962);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'rPool')
+data.setCell(19, 2, 'com.redbus.tests.NavBarTest')
+data.setCell(19, 3, 1282);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'redBusLogo')
+data.setCell(20, 2, 'com.redbus.tests.NavBarTest')
+data.setCell(20, 3, 1094);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'invalid_todownloadappViaLink')
+data.setCell(21, 2, 'com.redbus.tests.HomePageTest')
+data.setCell(21, 3, 1069);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'invalid_todownloadappViaLink1')
+data.setCell(22, 2, 'com.redbus.tests.HomePageTest')
+data.setCell(22, 3, 623);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.redbus.tests.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.redbus.tests.NavBarTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.redbus.tests.BusTicketTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.redbus.tests.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.redbus.tests.TicketDetailsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.redbus.tests.SearchTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbus.tests.BusHireTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setExtent</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">177 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3822 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">offers</span>
+                <span class="method-start">38766 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=offers status=SUCCESS method=BusHireTest.offers()[pri:0, instance:com.redbus.tests....)</span>
+                <span class="method-start">50824 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">50831 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">50833 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbus.tests.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">51052 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">54136 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalid_searchCheck</span>
+                <span class="method-start">56730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=invalid_searchCheck status=SUCCESS method=SearchTest.invalid_searchCheck()[pri:0, i...)</span>
+                <span class="method-start">69537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">69538 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">69540 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">69692 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">74565 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalid_searchCheck2</span>
+                <span class="method-start">79551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=invalid_searchCheck2 status=SUCCESS method=SearchTest.invalid_searchCheck2()[pri:0,...)</span>
+                <span class="method-start">87526 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">87527 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">87527 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">87628 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">89890 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">modifySearch</span>
+                <span class="method-start">94299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=modifySearch status=SUCCESS method=SearchTest.modifySearch()[pri:0, instance:com.re...)</span>
+                <span class="method-start">105126 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">105126 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">105127 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">105287 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">110355 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">valid_search</span>
+                <span class="method-start">114864 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=valid_search status=SUCCESS method=SearchTest.valid_search()[pri:0, instance:com.re...)</span>
+                <span class="method-start">129155 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">129155 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">129156 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">129309 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">130900 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">valid_tofilterSearches</span>
+                <span class="method-start">135363 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=valid_tofilterSearches status=SUCCESS method=SearchTest.valid_tofilterSearches()[pr...)</span>
+                <span class="method-start">146744 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">146744 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">146745 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">146858 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">151278 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">valid_toselectSeat</span>
+                <span class="method-start">155759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=valid_toselectSeat status=SUCCESS method=SearchTest.valid_toselectSeat()[pri:0, ins...)</span>
+                <span class="method-start">168711 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">168712 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">168713 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbus.tests.BusTicketTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">168836 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">171623 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cancelTicket</span>
+                <span class="method-start">176195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=cancelTicket status=SUCCESS method=BusTicketTest.cancelTicket()[pri:0, instance:com...)</span>
+                <span class="method-start">180919 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">180920 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">180920 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">181044 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">181999 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">printSmsTicket</span>
+                <span class="method-start">186230 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=printSmsTicket status=SUCCESS method=BusTicketTest.printSmsTicket()[pri:0, instance...)</span>
+                <span class="method-start">191040 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">191040 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">191041 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbus.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">191160 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">192296 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalid_todownloadappViaLink</span>
+                <span class="method-start">196202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=invalid_todownloadappViaLink status=SUCCESS method=HomePageTest.invalid_todownloada...)</span>
+                <span class="method-start">197271 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">197272 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">197273 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">197403 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">202578 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalid_todownloadappViaLink1</span>
+                <span class="method-start">206827 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=invalid_todownloadappViaLink1 status=SUCCESS method=HomePageTest.invalid_todownload...)</span>
+                <span class="method-start">207451 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">207451 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">207451 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">207544 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">207886 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">rbuscares_donateanonymously</span>
+                <span class="method-start">210141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=rbuscares_donateanonymously status=SUCCESS method=HomePageTest.rbuscares_donateanon...)</span>
+                <span class="method-start">213642 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">213643 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">213643 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">213731 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">218148 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">rbuscares_navigatePaymentGateway</span>
+                <span class="method-start">222345 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=rbuscares_navigatePaymentGateway status=SUCCESS method=HomePageTest.rbuscares_navig...)</span>
+                <span class="method-start">233654 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">233654 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">233655 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">233773 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">238444 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">rbuscares_toDonateCustomAmount</span>
+                <span class="method-start">242590 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=rbuscares_toDonateCustomAmount status=SUCCESS method=HomePageTest.rbuscares_toDonat...)</span>
+                <span class="method-start">245871 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">245871 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">245871 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbus.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">245969 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">248680 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalid_login_PhoneNumber</span>
+                <span class="method-start">251812 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=invalid_login_PhoneNumber status=SUCCESS method=LoginTest.invalid_login_PhoneNumber...)</span>
+                <span class="method-start">254775 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">254775 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">254775 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbus.tests.TicketDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">254876 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">259000 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalid_togetETicket</span>
+                <span class="method-start">262602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=invalid_togetETicket status=SUCCESS method=TicketDetailsTest.invalid_togetETicket()...)</span>
+                <span class="method-start">266792 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">266793 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">266795 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">266904 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">269313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalid_togetETicket1</span>
+                <span class="method-start">272824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=invalid_togetETicket1 status=SUCCESS method=TicketDetailsTest.invalid_togetETicket1...)</span>
+                <span class="method-start">276928 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">276928 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">276929 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">277015 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">279651 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalid_togetETicket2</span>
+                <span class="method-start">284412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=invalid_togetETicket2 status=SUCCESS method=TicketDetailsTest.invalid_togetETicket2...)</span>
+                <span class="method-start">287859 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">287859 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">287861 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">287971 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">289929 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">valid_togetETicket</span>
+                <span class="method-start">293784 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=valid_togetETicket status=SUCCESS method=TicketDetailsTest.valid_togetETicket()[pri...)</span>
+                <span class="method-start">297465 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">297466 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">297466 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbus.tests.NavBarTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">297580 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">300308 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">busHire</span>
+                <span class="method-start">305662 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=busHire status=SUCCESS method=NavBarTest.busHire()[pri:0, instance:com.redbus.tests...)</span>
+                <span class="method-start">308934 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">308934 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">308935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">309039 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">310590 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">busTicket</span>
+                <span class="method-start">316465 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=busTicket status=SUCCESS method=NavBarTest.busTicket()[pri:0, instance:com.redbus.t...)</span>
+                <span class="method-start">323373 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">323373 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">323374 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">323539 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">325856 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">rPool</span>
+                <span class="method-start">330062 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=rPool status=SUCCESS method=NavBarTest.rPool()[pri:0, instance:com.redbus.tests.Nav...)</span>
+                <span class="method-start">331345 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">331345 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">331345 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">intializeWebDriver</span>
+                <span class="method-start">331450 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">336256 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redBusLogo</span>
+                <span class="method-start">339075 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=redBusLogo status=SUCCESS method=NavBarTest.redBusLogo()[pri:0, instance:com.redbus...)</span>
+                <span class="method-start">340169 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">340169 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">reportclose</span>
+                <span class="method-start">340169 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbus.tests.BusHireTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">340304 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
