@@ -32,7 +32,7 @@ Different ways to run this project.
 ### GIT REPO
 
 ```
-https://github.com/samiksha23799/Assignment_ExitTest
+https://github.com/samiksha23799/Assignment_ExitTest.git
 ```
 
 ### GETTING STARTED 
@@ -177,6 +177,9 @@ It consist of 3 packages
 
 **Properties** - contains the config.properties file
 
+### FAILEDSCREENSHOTS
+
+Stores all the screenshot when test case failed.
 
 ### DRIVERS
 
@@ -184,7 +187,7 @@ It contain all the drivers required to open the browsers like chromedriver, geck
 
 ### REPORTS FOLDER
 
-Generate the extent reports for all the test cases along with the screenshots if test gets failed
+Generate the extent reports for all the test cases.
 
 ### LOG FOLDER
 

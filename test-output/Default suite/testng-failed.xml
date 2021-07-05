@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.redbus.tests.TicketDetailsTest">
+      <class name="com.redbus.tests.BusHireTest">
         <methods>
-          <include name="invalid_togetETicket1"/>
           <include name="intializeWebDriver"/>
           <include name="reportclose"/>
           <include name="closeBrowser"/>
-          <include name="invalid_togetETicket2"/>
           <include name="endReport"/>
           <include name="openBrowser"/>
-          <include name="valid_togetETicket"/>
+          <include name="offers"/>
           <include name="attachScreenshot"/>
-          <include name="invalid_togetETicket"/>
           <include name="setExtent"/>
         </methods>
-      </class> <!-- com.redbus.tests.TicketDetailsTest -->
+      </class> <!-- com.redbus.tests.BusHireTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
